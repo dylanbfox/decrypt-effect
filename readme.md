@@ -2,7 +2,7 @@
 
 ### Overview
 
-Use **decrypt.js** to transform some random text like "5y5pvh2SZdHMQutybUTXGPhc#1d" into "decrypt_effect.js examples!".
+Use **decrypt.js** to transform some random text like *"5y5pvh2SZdHMQutybUTXGPhc#1d"* into *"decrypt_effect.js examples!"* right in front of your users.
 
 ### How It Works
 
@@ -18,7 +18,10 @@ Using jQuery, simply create a jQuery object and call the custom **decrypt_effect
 
 ### Installation
 
+**1. Include jQuery**
 `<script src="path/to/jquery.js"></script>`
+
+**2. Include decrypt.js**
 `<script type="text/javascript" src="path/to/decrypt.js"></script>`
 
 ### Options
