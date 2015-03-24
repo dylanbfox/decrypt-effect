@@ -38,3 +38,8 @@ By default, the effect occurs in 30 milliseconds.
 ### Dependencies
 
 Decrypt.JS requires jQuery. It's only been tested with versions 1.11 and 2.1.
+
+### Coming Soon
+
+- Examples
+- Callback option when effect is done
