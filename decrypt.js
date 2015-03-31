@@ -38,7 +38,6 @@
 			var real_text = decrypted_text;
 			if (z < psuedorandom_indexes.length){
 				var random_index = psuedorandom_indexes[z];
-				console.log(random_index);
 				var first_half = starting_text.substring(0, random_index);
 				var substitution = real_text.substring(random_index, random_index+1);
 				var second_half = starting_text.substring(random_index+1);
@@ -46,7 +45,9 @@
 				node.text(new_text);
 				z++;
 			} else {
-				// options.callback();
+				if (options.callback) {
+					options.callback();
+				}
 				clearInterval(decryptText);
 			}
 		}, speed);

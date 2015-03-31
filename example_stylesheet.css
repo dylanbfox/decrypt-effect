@@ -1,11 +1,17 @@
 body {
 	text-align:center;
-	font-family:'Open Sans', sans-serif;
+	font-family:'Jockey One', sans-serif;
+	background-color:#101010;
+	color:#FFD502;	
 }
 
 body p {
 	margin:0;
 	padding:0;
+}
+
+body h1 {
+	font-size:49px;
 }
 
 body #examples > div {
@@ -14,11 +20,25 @@ body #examples > div {
 }
 
 body #examples > div > p {
-	font-size:22px;
+	font-size:42px;
 	font-weight:700;
 }
 
 body #examples > div > h3 {
-	font-size:18px;
+	font-size:30px;
 	font-weight:700;
+	color:rgba(245, 220, 90, 1);
+}
+
+body #examples > div button {
+	cursor:pointer;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	background-color:#107CBE;
+	padding:7px 25px;
+	color:#FFF;
+	font-family:'Jockey One', sans-serf;
+	font-size:18px;
+	border:none;	
 }
