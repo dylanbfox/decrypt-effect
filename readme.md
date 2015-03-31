@@ -2,7 +2,7 @@
 
 ### Overview
 
-Use **decrypt.js** to unscramble some random text like *"5y5pvh2SZdHMQutybUTXGPhc#1d"* into *"decrypt_effect.js examples!"* right in front of your users.
+Use **decrypt.js** to unscramble some random text like *"5y5pvh2SZdHMQutybUTX"* into *"decrypt.js examples!"* right in front of your users.
 
 ### How It Works
 
