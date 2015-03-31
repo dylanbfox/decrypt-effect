@@ -36,6 +36,8 @@ For now, you just need to make sure the scrambled text and the real text (decryp
 
 ### Options
 
+**Speed**
+
 You can pass in a custom speed (in milliseconds) for the decryption effect.
 
 	$("h3").decrypt_effect({
@@ -45,12 +47,23 @@ You can pass in a custom speed (in milliseconds) for the decryption effect.
 
 By default, the effect occurs in 30 milliseconds.
 
+**Callback**
+
+You can pass a callback to `decrypt_effect` that'll be fired when the unscrambling is finished.
+
+	$("h3").decrypt_effect({
+		decrypted_text: "callback example!",
+		callback: function(){
+			alert("all done!");
+			// maybe do some other stuff
+		},
+	});
+ 
 ### Dependencies
 
 Decrypt.JS requires jQuery. It's only been tested with versions 1.11 and 2.1.
 
 ### Coming Soon
 
-- Callback option when effect is done
-- Prettier examples 
 - Support for mismatched character counts
+- ... 
